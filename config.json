@@ -1,0 +1,22 @@
+{
+  "brandName": "Arnex Development",
+  "embedColor": "#3B82F6",
+  "roles": {
+    "memberRoleId": "MEMBER_ROLE_ID",
+    "staffRoleId": "STAFF_ROLE_ID"
+  },
+  "channels": {
+    "ticketCategoryId": "TICKET_CATEGORY_ID",
+    "logsChannelId": "LOGS_CHANNEL_ID",
+    "reviewsChannelId": "REVIEWS_CHANNEL_ID",
+    "transcriptsChannelId": "TRANSCRIPTS_CHANNEL_ID"
+  },
+  "ticketTypes": {
+    "website": "💻 Website",
+    "discord_bot": "🤖 Discord Bot",
+    "fivem": "🎮 FiveM Script",
+    "ui_design": "🎨 UI / Design",
+    "bug_fix": "🛠️ Bug Fix",
+    "other": "📦 Other"
+  }
+}
