@@ -3,9 +3,7 @@ require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
 const { Client, Collection, GatewayIntentBits, Partials } = require('discord.js');
-console.log("BOT STARTING...");
-console.log("TOKEN EXISTS:", Boolean(process.env.TOKEN));
-console.log("TOKEN LENGTH:", process.env.TOKEN ? process.env.TOKEN.length : 0);
+
 const client = new Client({
   intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMembers, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent],
   partials: [Partials.Channel, Partials.Message, Partials.GuildMember]
