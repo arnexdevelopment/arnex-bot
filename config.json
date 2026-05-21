@@ -2,14 +2,14 @@
   "brandName": "Arnex Development",
   "embedColor": "#3B82F6",
   "roles": {
-    "memberRoleId": "MEMBER_ROLE_ID",
-    "staffRoleId": "STAFF_ROLE_ID"
+    "memberRoleId": "1409847595165155379",
+    "staffRoleId": "1507065570351124651"
   },
   "channels": {
-    "ticketCategoryId": "TICKET_CATEGORY_ID",
-    "logsChannelId": "LOGS_CHANNEL_ID",
-    "reviewsChannelId": "REVIEWS_CHANNEL_ID",
-    "transcriptsChannelId": "TRANSCRIPTS_CHANNEL_ID"
+    "ticketCategoryId": "1409847801881559140",
+    "logsChannelId": "1409847726589608008",
+    "reviewsChannelId": "1507065160639189102",
+    "transcriptsChannelId": "1507065238967554078"
   },
   "ticketTypes": {
     "website": "💻 Website",
