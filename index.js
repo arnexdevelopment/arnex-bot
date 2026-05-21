@@ -24,4 +24,5 @@ for (const file of fs.readdirSync(path.join(__dirname, 'events')).filter(f => f.
 process.on('unhandledRejection', console.error);
 process.on('uncaughtException', console.error);
 
-client.login(process.env.TOKEN);
+const token = process.env.DISCORD_TOKEN?.trim();
+client.login(token);
