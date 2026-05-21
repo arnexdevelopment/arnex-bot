@@ -7,7 +7,7 @@ for (const file of fs.readdirSync(path.join(__dirname, 'commands')).filter(f => 
   const command = require(path.join(__dirname, 'commands', file));
   if (command.data) commands.push(command.data.toJSON());
 }
-const rest = new REST({ version: '10' }).setToken(process.env.TOKEN);
+const rest = new REST({ version: '10' }).setToken(process.env.DISCORD_TOKEN);
 (async () => {
   try {
     console.log(`Deploying ${commands.length} commands...`);
