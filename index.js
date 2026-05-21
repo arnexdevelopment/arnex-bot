@@ -22,4 +22,6 @@ for (const file of fs.readdirSync(path.join(__dirname, 'events')).filter(f => f.
 
 process.on('unhandledRejection', console.error);
 process.on('uncaughtException', console.error);
+console.log("TOKEN EXISTS:", !!process.env.TOKEN);
+console.log("TOKEN LENGTH:", process.env.TOKEN?.length);
 client.login(process.env.TOKEN);
